@@ -1,0 +1,16 @@
+constructor function = __init__ = initialize new obj state  --> class objects CAN have different set of attributes (added)
+accessible class variable by obj.class_var... i thought obj._ClassName_classvar (added)
+class var can be changed by each initialization or class obj (added)
+class_obj.__dict__ does not have methods and class var just the constructor; ClassItself.__dict__ does (added)
+__dict__ is included in __dict__ (added)
+
+okay okay okay so private variables use that obj._classname__privatevar but you could just access normal class var with obj
+JUST MAKE NOTE THAT ITS NOT INCLUDED IN DICT (added both)
+
+__bases__ is tuple, contains direct superclass data (added)
+holder object hasattr "class_var" in Class (parent or child) (added)
+obj is instance of superclass even if the object was declared with the superclass' child (added)
+BUT obj is NOT instance of subclass if declared with superclass (added)
+
+subclass calls method that doesnt exist goes to direct superclass and that superclass uses values from the secondary declaration first (added)
+According to MRO (method Resolution Order rules) you cant have a direct superclass then another declaration
